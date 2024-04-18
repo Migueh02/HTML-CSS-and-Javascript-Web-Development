@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+@font-face {
+    font-family: 'MiFuente';
+    src: url('img/earthorbiter.ttf') format('truetype');
+}
+
+body {
+    font-family: 'MiFuente';
+}
+h1{
+    text-align: center;
+}
+
+#Recursos{
+    text-align: center;
+}
+.iconos {
+    height: 32px; /* Define la altura deseada para los iconos */
+}
+
+.imagenes {
+    height: 32px; /* Define la altura deseada para las imágenes */
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Ajusta este valor según sea necesario */
+}
+
+.container {
+    flex: 1;
+    text-align: center; /* Esto centrará tanto el texto como la imagen horizontalmente */
+}
+
+.textos {
+ text-align: left;
+}
+
+.elm_img {
+    display: block;
+    margin: auto; /* Esto centrará la imagen horizontalmente dentro de su contenedor */
+}

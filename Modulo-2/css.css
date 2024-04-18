@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif; /* Optional: Set a font-family */
+    background-color: #f2f2f2; /* Cambia el color de fondo según tus preferencias */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .row {
+    margin: 0 auto;
+    max-width: 1200px; /* Cambia el ancho máximo según tus necesidades */
+    overflow: hidden;
+  }
+  
+  /* Column styles */
+  [class^="col-"] {
+    float: left;
+  }
+  
+  .col-lg-4, .col-md-6, .col-md-12 {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Responsiveness */
+  @media (min-width: 768px) {
+    .col-md-6 {
+        width: 50%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+  }
+  
+  /* Section styles */
+  .section {
+    background-color: #1d1d1d;
+    border: 1px solid black;
+    padding: 8px;
+    margin-bottom: 30px;
+    position: relative; /* Agregado */
+  }
+  
+  .section h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    font-size: 125%;
+    text-shadow: auto;
+  }
+  
+  /* Text styles */
+  p {
+    color: rgb(255, 255, 255);
+    padding-top: 40px; /* Ajuste la distancia del texto del párrafo al título */
+    font-size: 18px; /* Agregar tamaño de fuente */
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #p1 {
+    background-color: rgb(255, 208, 0);
+  }
+  
+  #p2 {
+    background-color: #ff6347;
+  }
+  
+  #p3 {
+    background-color: #006db6;
+  }
